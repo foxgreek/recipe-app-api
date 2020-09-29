@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e96c1ecc-4a35-4253-b4b9-12688d8360a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.flake8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/tests/test_models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="25326c20-a726-47f8-a92c-3c7589a59d79" />
   <component name="ProjectId" id="1ehDV2y3cDVDBGc5IQNJ2dy52ke" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,6 +45,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Django/Jinja2 Template" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Python tests.Unittests for test_admin.AdminSiteTest.test_users_listed">
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
@@ -92,6 +100,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -109,12 +118,15 @@
       <workItem from="1595625283276" duration="4275000" />
       <workItem from="1596034009333" duration="545000" />
       <workItem from="1599344255451" duration="643000" />
-      <workItem from="1599346164854" duration="3619000" />
+      <workItem from="1599346164854" duration="5454000" />
+      <workItem from="1599638896604" duration="27000" />
+      <workItem from="1601412507449" duration="179000" />
+      <workItem from="1601412689937" duration="1935000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -128,10 +140,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="567" y="336" key="#com.intellij.fileTypes.FileTypeChooser/-178.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1594767702469" />
-    <state x="528" y="279" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1599346091015">
+    <state x="528" y="279" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1599638718764">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="528" y="279" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1599346091015" />
+    <state x="528" y="279" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1599638718764" />
     <state width="1638" height="279" key="GridCell.Tab.0.bottom" timestamp="1595759932182">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -157,9 +169,13 @@
     </state>
     <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1599347119747" />
     <state x="341" y="175" key="SettingsEditor/1680.-809.1366.1001/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1595282789870" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1601414463711">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/-325.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1601414463711" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/recipe_app_api$Unittests_for_test_admin_AdminSiteTest_test_users_listed.coverage" NAME="Unittests for test_admin.AdminSiteTest.test_users_listed Coverage Results" MODIFIED="1595628119763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/core/tests" />
     <SUITE FILE_PATH="coverage/recipe_app_api$Unittests_for_test_models_ModelTest_test_new_user_email_noramlized.coverage" NAME="Unittests for test_models.ModelTest.test_new_user_email_noramlized Coverage Results" MODIFIED="1595283201051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/core/tests" />
+    <SUITE FILE_PATH="coverage/recipe_app_api$Unittests_for_test_admin_AdminSiteTest_test_users_listed.coverage" NAME="Unittests for test_admin.AdminSiteTest.test_users_listed Coverage Results" MODIFIED="1595628119763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/core/tests" />
   </component>
 </project>
