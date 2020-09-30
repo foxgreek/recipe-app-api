@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e96c1ecc-4a35-4253-b4b9-12688d8360a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/tests/test_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/tests/test_admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/recipe-app-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/recipe-app-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +38,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Django/Jinja2 Template" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Python tests.Unittests for test_admin.AdminSiteTest.test_users_listed">
@@ -121,7 +115,8 @@
       <workItem from="1599346164854" duration="5454000" />
       <workItem from="1599638896604" duration="27000" />
       <workItem from="1601412507449" duration="179000" />
-      <workItem from="1601412689937" duration="1935000" />
+      <workItem from="1601412689937" duration="2457000" />
+      <workItem from="1601494039891" duration="2654000" />
     </task>
     <servers />
   </component>
@@ -164,9 +159,10 @@
     </state>
     <state width="1638" height="279" key="GridCell.Tab.0.right/-178.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1595759932180" />
     <state width="1638" height="275" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1595311833276" />
-    <state x="341" y="175" key="SettingsEditor" timestamp="1599347119747">
+    <state x="341" y="175" key="SettingsEditor" timestamp="1601498061524">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state x="341" y="175" key="SettingsEditor/-325.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1601498061524" />
     <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1599347119747" />
     <state x="341" y="175" key="SettingsEditor/1680.-809.1366.1001/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1595282789870" />
     <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1601414463711">
