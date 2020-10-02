@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e96c1ecc-4a35-4253-b4b9-12688d8360a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/core/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/management/commands/wait_for_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/tests/test_commands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/tests/test_user_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +124,7 @@
       <workItem from="1601412689937" duration="2457000" />
       <workItem from="1601494039891" duration="3261000" />
       <workItem from="1601499016353" duration="2273000" />
-      <workItem from="1601586341168" duration="3275000" />
+      <workItem from="1601586341168" duration="8508000" />
     </task>
     <servers />
   </component>
@@ -142,6 +143,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="567" y="336" key="#com.intellij.fileTypes.FileTypeChooser/-178.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1594767702469" />
+    <state x="653" y="259" key="#com.intellij.ide.util.MemberChooser" timestamp="1601652066394">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="653" y="259" key="#com.intellij.ide.util.MemberChooser/-325.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1601652066394" />
     <state x="528" y="279" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601498966963">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -177,6 +182,18 @@
     <state x="341" y="175" key="SettingsEditor/-325.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1601498061524" />
     <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1599347119747" />
     <state x="341" y="175" key="SettingsEditor/1680.-809.1366.1001/-240.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1595282789870" />
+    <state x="485" y="158" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601651308472">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="485" y="158" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-325.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1601651308472" />
+    <state x="636" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601650599223">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="636" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-325.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1601650599223" />
+    <state x="542" y="275" width="596" height="522" key="find.popup" timestamp="1601650590436">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="542" y="275" width="596" height="522" key="find.popup/-325.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1601650590436" />
     <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1601414463711">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
